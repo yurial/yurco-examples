@@ -6,7 +6,7 @@
 #include <signal.h>
 #include <stdlib.h>
 
-void process_connection(yurco::Coroutine& coro, yurco::Reactor& reactor, int& clientfd)
+void process_connection(yurco::Coroutine& coro, yurco::Reactor& reactor, int clientfd)
     {
     (void)coro;
     char buf[1024];
