@@ -26,6 +26,6 @@ int main()
     scheduler.resume_all();
     while (scheduler.try_execute_one())
         ;
-    std::cout << "Coroutines was terminated via yurco::terminate_exception, cause terminate_flag set to thrue" << std::endl;
+    std::cout << "Coroutines was terminated via yurco::terminate_exception, cause terminate_flag set to true" << std::endl;
     return EXIT_SUCCESS;
     }
