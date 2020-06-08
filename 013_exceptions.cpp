@@ -31,7 +31,7 @@ int main()
         std::cout << "2: Exception: " << e.what() << std::endl;
         }
 
-    coro.set_exception(nullptr); // we should reset exception manualy
+    coro.set_exception(nullptr); // we should reset exception manual
 
     try
         {
