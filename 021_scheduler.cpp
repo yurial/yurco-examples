@@ -6,7 +6,7 @@ void entry(yurco::Coroutine& self, yurco::SimpleScheduler& scheduler, int my_id)
     {
     for (uint32_t i=0; i < 2; ++i)
         {
-        std::cout << "my_id" << my_id << std::endl;
+        std::cout << "Coroutine " << my_id << std::endl;
         self.yield();
         }
     scheduler.suspend(self);
