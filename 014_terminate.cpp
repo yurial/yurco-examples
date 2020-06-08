@@ -23,7 +23,7 @@ int main()
         {
         coro.set_exception(std::make_exception_ptr(yurco::terminate_exception()));
         coro();
-        std::cout << "No exception" << std::endl;
+        std::cout << "No exception returned from coroutine" << std::endl;
         }
     catch (const yurco::terminate_exception&)
         {
