@@ -1,0 +1,6 @@
+[submodule "yurco"]
+	path = yurco
+	url = https://github.com/yurial/yurco
+[submodule "unistd"]
+	path = unistd
+	url = https://github.com/yurial/unistd
